@@ -1,0 +1,37 @@
+<head>
+  <style>
+    h2 {
+      grid-column: 1;
+      justify-self: flex-start;
+      display: flex;
+      justify-content: space-between;
+      font-size: 18;
+      margin: 4px 12px;
+      width: calc(100% - 24px);
+    }
+    button {
+      justify-self: center;
+      font-size: 18;
+      margin: 18px 12px 4px;
+      border-radius: 8px;
+      padding: 4px;
+    }
+    span {
+      justify-self: flex-end;
+    }
+    body {
+      background-color: #fcfcfc;
+      display: grid;
+      width: 160px;
+      margin: 12px;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Contacts: <span id="contacts">0</span></h2>
+  <h2>Companies:  <span id="companies">0</span></h2>
+  <button>Generate CSV</button>
+</body>
+<script src="popup.js"></script>
